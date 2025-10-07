@@ -103,23 +103,31 @@ print(user_number>10)
 # Compare it to a stored password and print the Boolean result using print().
 # Example:
 # print(user_input == stored_password)  # True if correct, False otherwise
+password="user"
+enteredPassword = ("enter the passord ")
+print(password==enteredPassword)
 
 # Extension 2:
 # Ask the user to enter any text.
 # Check if they actually typed something (not empty) and print True/False.
 # Example:
 # print(len(text_input) > 0)  # True if they typed something
-
+text= input("enter a word ")
+print(len(text)>0)
 # Extension 3 (more challenging):
 # Combine multiple Booleans using AND, OR operators.
 # Example idea:
 # - Ask the user for two numbers.
+   
+
 # - Check if the first number is greater than 10 AND the second number is less than 20.
 # - Print the result.
 # Hint: use print((num1 > 10) and (num2 < 20)) to see True or False
 
 # Write your extension code below:
-
+no1=int(input("Enter first number "))
+no2=int(input("Enter second number "))
+print((no1>10) and (no2<20))
 
 # -------------------------------------------
 # Submitting Your Work
