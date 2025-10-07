@@ -23,8 +23,18 @@
 # print(num1 > num2)  # Prints True or False depending on your numbers
 
 # TODO:
+
+
+
 # 1. Create your own two number variables.
+number1=20
+number2=4
 # 2. Compare them using >, <, ==, != and print the results.
+print(number1 < number2)
+print(number1 > number2)
+print(number1 == number2)
+print(number1 != number2)
+
 
 # Write your code below:
 
@@ -35,17 +45,26 @@
 # Example: "apple" == "apple" gives True.
 # Example: "apple" == "Apple" gives False (Python is case-sensitive!).
 
+
 # Example of printing Boolean results:
 # print(word1 == word2)  # Prints True or False depending on your strings
+word1 = "apple"
+word2 = "Apple"
+print(word1==word2)
+print(word1!=word2)
 
 # TODO:
 # 1. Create your own two string variables.
 # 2. Compare them using == and print the result.
 # 3. Compare them using != and print the result.
 
+
 # Write your code below:
 
-
+str1= "bike"
+str2="car"
+print(str1==str2)
+print(str1!=str2)
 # Step 3: Input and Boolean Results
 # ---------------------------------
 # You can get input from the user and immediately check something about it.
@@ -61,8 +80,10 @@
 # Ask the user to type a word and compare it to a stored string, then print True/False.
 
 # Write your code below:
-
+user_number= int(input("enter the number "))
+print(user_number>10)
 # -------------------------------------------
+
 # Submitting Your Work
 # -------------------------------------------
 # Once you’ve completed this exercise:
@@ -82,23 +103,31 @@
 # Compare it to a stored password and print the Boolean result using print().
 # Example:
 # print(user_input == stored_password)  # True if correct, False otherwise
+password="user"
+enteredPassword = ("enter the passord ")
+print(password==enteredPassword)
 
 # Extension 2:
 # Ask the user to enter any text.
 # Check if they actually typed something (not empty) and print True/False.
 # Example:
 # print(len(text_input) > 0)  # True if they typed something
-
+text= input("enter a word ")
+print(len(text)>0)
 # Extension 3 (more challenging):
 # Combine multiple Booleans using AND, OR operators.
 # Example idea:
 # - Ask the user for two numbers.
+   
+
 # - Check if the first number is greater than 10 AND the second number is less than 20.
 # - Print the result.
 # Hint: use print((num1 > 10) and (num2 < 20)) to see True or False
 
 # Write your extension code below:
-
+no1=int(input("Enter first number "))
+no2=int(input("Enter second number "))
+print((no1>10) and (no2<20))
 
 # -------------------------------------------
 # Submitting Your Work
