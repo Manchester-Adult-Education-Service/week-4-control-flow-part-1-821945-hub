@@ -23,8 +23,18 @@
 # print(num1 > num2)  # Prints True or False depending on your numbers
 
 # TODO:
+
+
+
 # 1. Create your own two number variables.
+number1=20
+number2=4
 # 2. Compare them using >, <, ==, != and print the results.
+print(number1 < number2)
+print(number1 > number2)
+print(number1 == number2)
+print(number1 != number2)
+
 
 # Write your code below:
 
@@ -35,17 +45,26 @@
 # Example: "apple" == "apple" gives True.
 # Example: "apple" == "Apple" gives False (Python is case-sensitive!).
 
+
 # Example of printing Boolean results:
 # print(word1 == word2)  # Prints True or False depending on your strings
+word1 = "apple"
+word2 = "Apple"
+print(word1==word2)
+print(word1!=word2)
 
 # TODO:
 # 1. Create your own two string variables.
 # 2. Compare them using == and print the result.
 # 3. Compare them using != and print the result.
 
+
 # Write your code below:
 
-
+str1= "bike"
+str2="car"
+print(str1==str2)
+print(str1!=str2)
 # Step 3: Input and Boolean Results
 # ---------------------------------
 # You can get input from the user and immediately check something about it.
@@ -61,8 +80,10 @@
 # Ask the user to type a word and compare it to a stored string, then print True/False.
 
 # Write your code below:
-
+user_number= int(input("enter the number "))
+print(user_number>10)
 # -------------------------------------------
+
 # Submitting Your Work
 # -------------------------------------------
 # Once you’ve completed this exercise:
